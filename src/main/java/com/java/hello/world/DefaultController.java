@@ -8,6 +8,6 @@ public class DefaultController {
 
 	@GetMapping("/")
 	public String getMessage() {
-		return "This is default message - try /hello/world";
+		return "This is default message - now try /hello/world";
 	}
 }
